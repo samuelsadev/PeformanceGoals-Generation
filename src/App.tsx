@@ -1,13 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./header/Header";
-import Home from "./components/home/Home";
 import { ListarCategorias } from "./components/categorias/listarCategoria/ListarCategoria";
 import { DeletarCategoria } from "./components/categorias/deletarCategoria/DeletarCategoria";
 import { FormCategoria } from "./components/categorias/formCategoria/FormCategoria";
 import { ListaProdutos } from "./components/produtos/listarProdutos/ListarProdutos";
 import { FormProduto } from "./components/produtos/formProduto/FormProduto";
 import { DeletarProduto } from "./components/produtos/deletarProdutos/DeletarProdutos";
-import Footer from "./components/footer/Footer";
+import { Footer } from "./components/footer/Footer";
+import { Home } from "./components/home/Home";
+
 
 
 export function App() {
@@ -32,3 +33,4 @@ export function App() {
     </BrowserRouter>
   )
 }
+export default App
